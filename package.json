@@ -1,0 +1,26 @@
+{
+  "name": "apollo-server-mongo-id-scalar",
+  "version": "1.0.0",
+  "description": "Mongo ID Custom Scalar for Apollo Server",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampProjects/apollo-server-mongo-id-scalar.git"
+  },
+  "keywords": [
+    "mongoid",
+    "apollo",
+    "graphql",
+    "scalar"
+  ],
+  "author": "Antonio M. Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ampProjects/apollo-server-mongo-id-scalar/issues"
+  },
+  "homepage": "https://github.com/ampProjects/apollo-server-mongo-id-scalar#readme",
+  "dependencies": {
+    "graphql": "^14.0.2"
+  }
+}
