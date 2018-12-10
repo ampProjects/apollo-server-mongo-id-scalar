@@ -2,8 +2,11 @@
   "name": "apollo-server-mongo-id-scalar",
   "version": "1.0.0",
   "description": "Mongo ID Custom Scalar for Apollo Server",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "apollo-scripts start",
+    "build": "apollo-scripts build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ampProjects/apollo-server-mongo-id-scalar.git"
@@ -21,6 +24,16 @@
   },
   "homepage": "https://github.com/ampProjects/apollo-server-mongo-id-scalar#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.2.0",
+    "apollo-server-scripts": "^1.0.1",
     "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
   }
 }
